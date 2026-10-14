@@ -48,7 +48,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 
 /* ABOUT */
 #about{display:grid;grid-template-columns:1fr 1fr;min-height:85svh}
-.about-photo-col{background:#141414;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:72px 52px;gap:24px;position:relative}
+.about-photo-col{background:#1e1e1e;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:72px 52px;gap:24px;position:relative}
 .photo-frame{width:min(300px,70%);aspect-ratio:1;border-radius:50%;overflow:hidden;border:1px solid #2a2a2a;position:relative}
 .photo-frame img{width:100%;height:100%;object-fit:cover;display:block}
 .photo-frame::after{content:"";position:absolute;inset:-12px;border-radius:50%;border:1px solid rgba(212,43,43,.25);pointer-events:none}
@@ -65,14 +65,14 @@ blockquote.pull{font-family:"Cormorant Garamond",serif;font-size:1.1rem;font-sty
 blockquote.pull cite{display:block;margin-top:8px;font-size:.62rem;letter-spacing:.14em;font-style:normal;text-transform:uppercase;color:var(--red)}
 
 /* MANIFESTO */
-#manifesto{background:var(--dark);color:#f5f5f2;padding:100px 10vw;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+#manifesto{background:#f5f4f0;color:var(--ink);padding:100px 10vw;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
 .m-kicker{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:20px}
 .m-head{font-family:"Cormorant Garamond",serif;font-size:clamp(2.2rem,4.5vw,3.6rem);font-weight:300;line-height:1.1;letter-spacing:-.01em}
 .m-head em{color:var(--red);font-style:italic}
 .m-body{display:flex;flex-direction:column;gap:22px}
 .m-rule{width:40px;height:2px;background:var(--red);margin-bottom:4px}
-.m-p{font-size:.875rem;line-height:1.8;color:#aaa}
-.m-p strong{color:#eee;font-weight:500}
+.m-p{font-size:.875rem;line-height:1.8;color:var(--grey)}
+.m-p strong{color:var(--ink);font-weight:500}
 
 /* WHAT I DO */
 #what{padding:90px 40px;max-width:1200px;margin:0 auto}
